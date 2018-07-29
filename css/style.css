@@ -38,6 +38,10 @@ button:hover {
   background-color: goldenrod;
 }
 
+button:active {
+  background-color: green;
+}
+
 #display {
   width: 800px;
   max-width: 100%;
