@@ -26,3 +26,11 @@
 ul {
   list-style-type: none;
 }
+
+button {
+  margin: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
