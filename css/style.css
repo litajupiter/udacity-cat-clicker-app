@@ -13,9 +13,9 @@
   border-radius: 10px;
 }
 
-.responsive {
+.responsive, img {
   width: 100%;
-  max-width: 400px;
+  max-width: 800px;
   height: auto;
 }
 
@@ -29,8 +29,16 @@ ul {
 
 button {
   margin: 5px;
+  background-color: #9900ff;
+  color: white;
 }
 
 button:hover {
   cursor: pointer;
+  background-color: goldenrod;
+}
+
+#display {
+  width: 800px;
+  max-width: 100%;
 }
