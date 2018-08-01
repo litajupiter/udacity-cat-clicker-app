@@ -12,6 +12,8 @@ const catpic3 = document.getElementById("catpic3");
 const catpic4 = document.getElementById("catpic4");
 const catpic5 = document.getElementById("catpic5");
 
+const catcounter1 = document.getElementById("catCounter1");
+
 catname1.addEventListener('click', function() {
    display.innerHTML = "<img src=\"img/catface1.jpg\">";
 }, false);

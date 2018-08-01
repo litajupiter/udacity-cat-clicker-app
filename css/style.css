@@ -46,3 +46,7 @@ button:active {
   width: 800px;
   max-width: 100%;
 }
+
+#catCounter1 {
+  border: 1px solid black;
+}
