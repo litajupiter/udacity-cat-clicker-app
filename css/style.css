@@ -3,14 +3,7 @@
 }
 
 .counter {
-  float: left;
-  position: absolute;
-  left: 10px;
-  top: 10px;
-  z-index: 1000;
-  background-color: white;
   padding: 10px;
-  border-radius: 10px;
 }
 
 .responsive, img {
@@ -20,6 +13,10 @@
 }
 
 .hidden {
+  display: none;
+}
+
+.show {
   display: none;
 }
 
@@ -45,8 +42,4 @@ button:active {
 #display {
   width: 800px;
   max-width: 100%;
-}
-
-#catCounter1 {
-  border: 1px solid black;
 }
