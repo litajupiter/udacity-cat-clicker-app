@@ -31,15 +31,69 @@ let trackClicks5 = 0;
 
 catname1.addEventListener('click', function() {
   counter1.style.display = "block";
+  counter2.style.display = "none";
+  counter3.style.display = "none";
+  counter4.style.display = "none";
+  counter5.style.display = "none";
   catpic1.style.display = "block";
+  catpic2.style.display = "none";
+  catpic3.style.display = "none";
+  catpic4.style.display = "none";
+  catpic5.style.display = "none";
 }, false);
 
 catname2.addEventListener('click', function() {
   counter1.style.display = "none";
-  catpic1.style.display = "none";
   counter2.style.display = "block";
+  counter3.style.display = "none";
+  counter4.style.display = "none";
+  counter5.style.display = "none";
+  catpic1.style.display = "none";
   catpic2.style.display = "block";
+  catpic3.style.display = "none";
+  catpic4.style.display = "none";
+  catpic5.style.display = "none";
 }, false);
+
+catname3.addEventListener('click', function() {
+  counter1.style.display = "none";
+  counter2.style.display = "none";
+  counter3.style.display = "block";
+  counter4.style.display = "none";
+  counter5.style.display = "none";
+  catpic1.style.display = "none";
+  catpic2.style.display = "none";
+  catpic3.style.display = "block";
+  catpic4.style.display = "none";
+  catpic5.style.display = "none";
+}, false);
+
+catname4.addEventListener('click', function() {
+  counter1.style.display = "none";
+  counter2.style.display = "none";
+  counter3.style.display = "none";
+  counter4.style.display = "block";
+  counter5.style.display = "none";
+  catpic1.style.display = "none";
+  catpic2.style.display = "none";
+  catpic3.style.display = "none";
+  catpic4.style.display = "block";
+  catpic5.style.display = "none";
+}, false);
+
+catname5.addEventListener('click', function() {
+  counter1.style.display = "none";
+  counter2.style.display = "none";
+  counter3.style.display = "none";
+  counter4.style.display = "none";
+  counter5.style.display = "block";
+  catpic1.style.display = "none";
+  catpic2.style.display = "none";
+  catpic3.style.display = "none";
+  catpic4.style.display = "none";
+  catpic5.style.display = "block";
+}, false);
+
 
 catpic1.addEventListener('click', function() {
   trackClicks1 += 1;
@@ -65,48 +119,3 @@ catpic5.addEventListener('click', function() {
   trackClicks5 += 1;
   numClicks5.innerHTML = `${trackClicks5}`;
 }, false);
-
-//write a function to add and remove the show/hidden classes and add to the eventlistener?
-//will the click counter work this way?
-
-// catname1.addEventListener('click', function() {
-//    display.innerHTML = "<img src=\"img/catface1.jpg\">";
-// }, false);
-//
-// catname2.addEventListener('click', function() {
-//    display.innerHTML = "<img src=\"img/catleopard.jpg\">";
-// }, false);
-//
-// catname3.addEventListener('click', function() {
-//    display.innerHTML = "<img src=\"img/catforward.jpg\">";
-// }, false);
-//
-// catname4.addEventListener('click', function() {
-//    display.innerHTML = "<img src=\"img/catup.jpg\">";
-// }, false);
-//
-// catname5.addEventListener('click', function() {
-//    display.innerHTML = "<img src=\"img/catcoverface.jpg\">";
-// }, false);
-
-
-
-// var firstCat = document.getElementById('catPic');
-// var secondCat = document.getElementById('catPic2');
-// var clickCounterOne = 0;
-// var clickCounterTwo = 0;
-
-// firstCat.addEventListener('click', function() {
-//   clickCounterOne += 1;
-//   firstCatClicks.innerHTML = `${clickCounterOne}`;
-// }, false);
-//
-// secondCat.addEventListener('click', function() {
-//   clickCounterTwo += 1;
-//   secondCatClicks.innerHTML = `${clickCounterTwo}`;
-// }, false);
-
-
-// use the classList API to remove and add classes
-//div.classList.remove("foo");
-//div.classList.add("anotherclass");
