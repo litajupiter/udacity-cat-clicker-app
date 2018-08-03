@@ -18,8 +18,20 @@ const counter3 = document.getElementById("counter3");
 const counter4 = document.getElementById("counter4");
 const counter5 = document.getElementById("counter5");
 
-var numClicks1 = document.getElementById("numClicks1");
-var trackClicks1 = 0;
+const numClicks1 = document.getElementById("numClicks1");
+let trackClicks1 = 0;
+
+const numClicks2 = document.getElementById("numClicks2");
+let trackClicks2 = 0;
+
+const numClicks3 = document.getElementById("numClicks3");
+let trackClicks3 = 0;
+
+const numClicks4 = document.getElementById("numClicks4");
+let trackClicks4 = 0;
+
+const numClicks5 = document.getElementById("numClicks5");
+let trackClicks5 = 0;
 
 catname1.addEventListener('click', function() {
   counter1.style.display = "block";
@@ -34,6 +46,26 @@ catname2.addEventListener('click', function() {
 catpic1.addEventListener('click', function() {
   trackClicks1 += 1;
   numClicks1.innerHTML = `${trackClicks1}`;
+}, false);
+
+catpic2.addEventListener('click', function() {
+  trackClicks2 += 1;
+  numClicks2.innerHTML = `${trackClicks2}`;
+}, false);
+
+catpic3.addEventListener('click', function() {
+  trackClicks3 += 1;
+  numClicks3.innerHTML = `${trackClicks3}`;
+}, false);
+
+catpic4.addEventListener('click', function() {
+  trackClicks4 += 1;
+  numClicks4.innerHTML = `${trackClicks4}`;
+}, false);
+
+catpic5.addEventListener('click', function() {
+  trackClicks5 += 1;
+  numClicks5.innerHTML = `${trackClicks5}`;
 }, false);
 
 //write a function to add and remove the show/hidden classes and add to the eventlistener?
