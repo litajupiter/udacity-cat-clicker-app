@@ -18,6 +18,9 @@ const counter3 = document.getElementById("counter3");
 const counter4 = document.getElementById("counter4");
 const counter5 = document.getElementById("counter5");
 
+var numClicks1 = document.getElementById("numClicks1");
+var trackClicks1 = 0;
+
 catname1.addEventListener('click', function() {
   counter1.style.display = "block";
   catpic1.style.display = "block";
@@ -26,6 +29,11 @@ catname1.addEventListener('click', function() {
 catname2.addEventListener('click', function() {
   catpic1.style.display = "none";
   catpic2.style.display = "block";
+}, false);
+
+catpic1.addEventListener('click', function() {
+  trackClicks1 += 1;
+  numClicks1.innerHTML = `${trackClicks1}`;
 }, false);
 
 //write a function to add and remove the show/hidden classes and add to the eventlistener?
@@ -57,9 +65,7 @@ catname2.addEventListener('click', function() {
 // var secondCat = document.getElementById('catPic2');
 // var clickCounterOne = 0;
 // var clickCounterTwo = 0;
-// var firstCatClicks = document.getElementById('numClicks');
-// var secondCatClicks = document.getElementById('numClicks2');
-//
+
 // firstCat.addEventListener('click', function() {
 //   clickCounterOne += 1;
 //   firstCatClicks.innerHTML = `${clickCounterOne}`;
