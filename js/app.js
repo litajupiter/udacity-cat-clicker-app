@@ -20,16 +20,12 @@ const counter5 = document.getElementById("counter5");
 
 const numClicks1 = document.getElementById("numClicks1");
 let trackClicks1 = 0;
-
 const numClicks2 = document.getElementById("numClicks2");
 let trackClicks2 = 0;
-
 const numClicks3 = document.getElementById("numClicks3");
 let trackClicks3 = 0;
-
 const numClicks4 = document.getElementById("numClicks4");
 let trackClicks4 = 0;
-
 const numClicks5 = document.getElementById("numClicks5");
 let trackClicks5 = 0;
 
@@ -39,7 +35,9 @@ catname1.addEventListener('click', function() {
 }, false);
 
 catname2.addEventListener('click', function() {
+  counter1.style.display = "none";
   catpic1.style.display = "none";
+  counter2.style.display = "block";
   catpic2.style.display = "block";
 }, false);
 
